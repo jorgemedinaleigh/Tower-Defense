@@ -141,8 +141,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4, y: 4, z: 4}
-  m_Center: {x: 0, y: 2.5, z: 0}
+  m_Size: {x: 4, y: 4, z: 5.4001236}
+  m_Center: {x: 0, y: 2.5, z: 0.047909856}
 --- !u!114 &-1973073841261348447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHitPoints: 5
-  currentHitPoints: 0
+  difficultyRamp: 1
 --- !u!114 &7860726279964053643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,3 +169,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77e7acfe5796cb41b8d7719ad7e559b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goldReward: 25
+  goldPenalty: 25
